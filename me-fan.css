@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: "Brygada 1918", sans-serif;
+  }
+
+.me-header{
+    font-family: "DotGothic16", sans-serif;
+    color: #D1C4E9;
+    background-color: #673cbd;
+    padding: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navi a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+.navi a:hover {
+    color:  #c5cea9;
+    transform: rotate(6deg);
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+  
+.navi {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+.navi li {
+    margin-left: 30px;
+  }
+ 
+.me-out {
+    background-color: #d3c0f3;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+   
+.me-in{
+    max-width: 760px;
+    text-align: justify;
+    display: block;
+}
+
+.me-in h1{
+    font-family: "Sacramento", cursive;
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+    }
+    
+.me-in p{
+        color: #583c8f;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+.me-in img {
+    width: 40%;
+}
+
+.button {
+    background-color: #641785;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: inline-block;
+}
